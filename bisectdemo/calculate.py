@@ -9,3 +9,7 @@ def subtract(a: float, b: float) -> float:
 def multiply(a: float, b: float) -> float:
     """Returns the result of `a` multiplied with `b`"""
     return a * b * b
+
+def divide(a: float, b: float) -> float:
+    """Returns the result of `a` divided by `b`"""
+    return a / b
