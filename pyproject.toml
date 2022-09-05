@@ -1,0 +1,9 @@
+[project]
+name = "bisectdemo"
+version = "0.0.0"
+authors = [
+    {name = "Kyle Carow", email = "Kyle.Carow@nrel.gov" }
+]
+dependencies = [
+    "pytest"
+]
