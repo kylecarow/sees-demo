@@ -1,4 +1,12 @@
-from bisectdemo.calculate import multiply
+from bisectdemo.calculate import add, multiply
+
+def test_add():
+    assert add(1.0, 1.0) == 2.0
+    assert add(2.0, 1.0) == 3.0
+    assert add(3.0, 2.0) == 5.0
+    assert add(4.0, 2.0) == 6.0
+    assert add(5.0, 3.0) == 8.0
+    assert add(6.0, 3.0) == 9.0
 
 def test_multiply():
     assert multiply(1.0, 1.0) == 1.0
